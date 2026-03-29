@@ -36,6 +36,8 @@ bundle exec jekyll serve --destination /tmp/jekyll-site --no-watch
 ## Deployment
 Push to `master` branch via PR. GitHub Pages builds and deploys automatically.
 
+> **Warning**: This repo has an `upstream` remote pointing to `mmistakes/minimal-mistakes`. Always specify `--repo soenarjo/soenarjo.github.io` when creating PRs with `gh pr create`, otherwise the PR may be opened on the upstream theme repo instead.
+
 ## Adding/Editing Content
 - **New pages**: Add markdown files to `_pages/` with front matter (`layout: single`, `author_profile: true`, `permalink: /your-path/`)
 - **Navigation**: Edit `_data/navigation.yml` to add/remove nav links
@@ -49,8 +51,8 @@ Push to `master` branch via PR. GitHub Pages builds and deploys automatically.
 - Preference saved to `localStorage` and applied before first paint via `_includes/head/custom.html`
 - CSS lives in the `html.dark-mode { }` block in `assets/css/main.scss`
 
-## Custom Domain (future)
-To point `www.soenarjo.com` here:
-1. Add a `CNAME` file containing `www.soenarjo.com`
-2. Update DNS: CNAME `www` -> `soenarjo.github.io`, A records for apex domain to GitHub IPs
-3. Enable HTTPS in GitHub repo Settings > Pages
+## Custom Domain
+`www.soenarjo.com` is configured via:
+1. `CNAME` file containing `www.soenarjo.com`
+2. DNS (Squarespace): CNAME `www` -> `soenarjo.github.io`, A records for apex domain to GitHub IPs
+3. HTTPS enforced in GitHub repo Settings > Pages
