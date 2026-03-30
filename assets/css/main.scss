@@ -40,14 +40,43 @@ html {
 }
 
 @media (max-width: 1024px) {
+  .h-card {
+    display: flow-root !important;
+  }
+
   .author__avatar {
+    float: left !important;
+    display: block !important;
     width: 200px !important;
     max-width: 200px !important;
+    height: auto !important;
+    margin-right: 15px !important;
+    margin-bottom: 1.0em !important;
   }
 
   .author__avatar img {
     width: 200px !important;
     max-width: 200px !important;
+  }
+
+  .author__content {
+    display: block !important;
+    padding-inline: 0 !important;
+  }
+
+  .author__bio p {
+    margin-bottom: 1.0em !important;
+  }
+
+  .author__urls-wrapper {
+    display: block !important;
+    text-align: left !important;
+    margin-top: 0 !important;
+  }
+
+  .dark-mode-toggle {
+    margin-top: 1.0em !important;
+    width: auto !important;
   }
 }
 

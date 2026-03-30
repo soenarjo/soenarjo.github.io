@@ -16,4 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (anchor) {
     anchor.insertAdjacentElement('afterend', btn);
   }
+
+  var followBtn = document.querySelector('.author__urls-wrapper .btn--inverse');
+  if (followBtn) followBtn.textContent = 'Links';
 });
