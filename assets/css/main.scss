@@ -36,7 +36,19 @@ html {
 }
 
 .author__avatar img {
-  max-width: 160px !important;
+  max-width: 220px !important;
+}
+
+@media (max-width: 1024px) {
+  .author__avatar {
+    width: 200px !important;
+    max-width: 200px !important;
+  }
+
+  .author__avatar img {
+    width: 200px !important;
+    max-width: 200px !important;
+  }
 }
 
 .author__name {
