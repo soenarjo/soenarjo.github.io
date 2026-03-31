@@ -23,15 +23,25 @@ Built with Jekyll using the [Minimal Mistakes](https://mmistakes.github.io/minim
 
 ## Local Development
 ```bash
-bundle install
+# Ruby 3.1 is required (rbenv is configured via .ruby-version in the repo root)
+# First-time setup:
+eval "$(rbenv init -)" && gem install bundler && bundle install
+
 # Serve outside Dropbox folder to avoid Dropbox sync interference:
-bundle exec jekyll serve --destination /tmp/jekyll-site --no-watch
-# Site available at http://localhost:4000
+eval "$(rbenv init -)" && bundle exec jekyll serve --destination /tmp/jekyll-site --no-watch
+# Site available at http://127.0.0.1:4000
 ```
 
 > **Note**: Always use `--destination /tmp/jekyll-site --no-watch` when developing locally.
 > The repo lives in a Dropbox-synced folder; without these flags, Dropbox triggers continuous
 > Jekyll rebuilds, causing page flicker.
+>
+> **Ruby version**: Requires Ruby 3.1.x. Ruby 2.7 is too old (nokogiri needs 3.0+) and
+> Ruby 3.2+ breaks Jekyll 3.9 (Liquid's `tainted?` removed). A `.ruby-version` file pins 3.1.6
+> via rbenv. Install rbenv + ruby-build via Homebrew if needed.
+> **Edge case**: If rbenv is installed on a machine but Ruby 3.1.6 is not yet, rbenv will error
+> on any `bundle` command. Fix: `rbenv install 3.1.6`. If rbenv is not present, `.ruby-version`
+> is silently ignored and the system/rvm Ruby is used instead.
 
 ## Deployment
 Push to `master` branch via PR. GitHub Pages builds and deploys automatically.

@@ -2,6 +2,8 @@
 # Only the main styles. No front matter here, unless you want to.
 ---
 
+$max-width: 1920px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
@@ -69,9 +71,15 @@ html {
   }
 
   .author__urls-wrapper {
-    display: block !important;
+    display: inline-block !important;
     text-align: left !important;
     margin-top: 0 !important;
+  }
+
+  .author__urls {
+    inset-inline-end: auto !important;
+    inset-inline-start: 0 !important;
+    white-space: nowrap !important;
   }
 
   .dark-mode-toggle {
