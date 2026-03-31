@@ -14,7 +14,7 @@ repository: "soenarjo/soenarjo.github.io"
 author:
   name: "Aditya Soenarjo"
   avatar: "/assets/images/headshot.jpg"
-  bio: "Economist, Federal Reserve Bank of Boston"
+  bio: "Economist<br>Federal Reserve Bank of Boston"
   location: "Boston, MA"
   links:
     - label: "Email"
