@@ -1,6 +1,6 @@
 <!-- Apply dark mode before first paint to avoid flash -->
 <script>
-  if (localStorage.getItem('darkMode') === 'true') {
+  if (localStorage.getItem('darkMode') !== 'false') {
     document.documentElement.classList.add('dark-mode');
   }
 </script>
