@@ -10,6 +10,7 @@ permalink: /papers/
 **Liquidity and Labor Reallocation in an Uneven Economy**
 <br>
 [PDF](https://nbviewer.org/github/soenarjo/website/blob/main/reallocation.pdf){: .btn .btn--primary .btn--small}
+[Alternate](https://github.com/soenarjo/website/blob/main/reallocation.pdf){: .btn .btn--primary .btn--small}
 <br>
 *New version forthcoming.*
 
@@ -22,7 +23,8 @@ permalink: /papers/
 
 **Global Value Chains and Inflation Dynamics: Does the Source of Inputs Matter?**
 <br>
-[PDF](https://nbviewer.org/github/soenarjo/website/blob/8c8fdba4612ca6b458a4f215f9a537406c86821a/gvcs.pdf){: .btn .btn--primary .btn--small}
+[PDF](https://nbviewer.org/github/soenarjo/website/blob/main/gvcs.pdf){: .btn .btn--primary .btn--small}
+[Alternate](https://github.com/soenarjo/website/blob/main/gvcs.pdf){: .btn .btn--primary .btn--small}
 <br>
 *January 2026. Revise & Resubmit at Journal of International Economics.*
 <br>
@@ -54,6 +56,6 @@ with M. Ludovica Ambrosino
 
 **Global Value Chains and the Phillips Curve** by Florio, Siena & Zago
 <br>
-[Discussion](https://www.dropbox.com/scl/fi/4xsj2a0o5ez6hu941il3u/discussion_Florio_Siena_Zago.pdf?rlkey=eg47qa3gqekz5ff8ddbbw31y7&raw=1){: .btn .btn--primary .btn--small}
+[Discussion](https://github.com/soenarjo/website/blob/main/discussion_Florio_Siena_Zago.pdf){: .btn .btn--primary .btn--small}
 <br>
 *2024 Bank of England / Banque de France / Banca d'Italia Workshop*
