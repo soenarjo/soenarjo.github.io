@@ -4,10 +4,13 @@
 Personal academic website for Aditya Soenarjo, hosted on GitHub Pages at `soenarjo.github.io`.
 Built with Jekyll using the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) remote theme (v4.28.0).
 
+Reviewers: Adi Soenarjo <adityasoenarjo@gmail.com>
+
 ## Architecture
 - **No theme source files in repo** — uses `remote_theme` in `_config.yml` to pull Minimal Mistakes from GitHub at build time
 - **Skin**: "air" (light gray background, blue accents)
-- **Pages**: Home (`index.md`), Papers & Discussions (`_pages/papers.md`), CV (external PDF link)
+- **Pages**: Home (`index.md`), Papers & Discussions (`_pages/papers.md`), CV (self-hosted PDF)
+- **PDFs are self-hosted** in `assets/pdf/` and linked with site-relative paths — no nbviewer, no external repo
 
 ## Key Files
 - `_config.yml` — Site configuration, author info, theme settings, plugin list
@@ -15,10 +18,11 @@ Built with Jekyll using the [Minimal Mistakes](https://mmistakes.github.io/minim
 - `index.md` — Home page content
 - `_pages/papers.md` — Papers & Discussions page
 - `assets/images/headshot.jpg` — Author headshot
+- `assets/pdf/` — All papers, slides, and the CV. Each file's public URL is `https://www.soenarjo.com/assets/pdf/<filename>` — overwrite in place on revision so existing links keep resolving
 - `assets/css/main.scss` — Custom CSS overrides (scrollbar fix, dark mode, sidebar sizing)
 - `assets/js/dark-mode.js` — Dark mode toggle logic (persists preference via localStorage)
 - `_includes/head/custom.html` — Applies saved dark mode class before first paint (avoids flash)
-- `_includes/footer/custom.html` — Loads dark-mode.js
+- `_includes/footer/custom.html` — Loads dark-mode.js and holds the Federal Reserve disclaimer (rendered *before* the theme's copyright line, so `main.scss` uses flex `order` to place it below)
 - `Gemfile` — Ruby dependencies (`github-pages` gem + `jekyll-include-cache`)
 
 ## Local Development
