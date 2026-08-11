@@ -134,7 +134,8 @@ html.dark-mode {
     }
   }
 
-  .initial-content, .page__footer-follow, .page__footer-copyright {
+  .initial-content, .page__footer-follow, .page__footer-copyright,
+  .page__footer-disclaimer {
     background-color: #0d1b2a;
     color: #cfd8e3;
   }
@@ -249,5 +250,28 @@ html.dark-mode .dark-mode-toggle {
   &:hover {
     border-color: #fff;
     color: #fff;
+  }
+}
+
+/* Footer disclaimer.
+   The footer/custom.html include renders before the theme's copyright line,
+   so flex ordering is used to place the disclaimer underneath it. */
+#footer > footer {
+  display: flex;
+  flex-direction: column;
+
+  .page__footer-follow {
+    order: 1;
+  }
+
+  .page__footer-copyright {
+    order: 2;
+  }
+
+  .page__footer-disclaimer {
+    order: 3;
+    font-family: $global-font-family;
+    font-size: $type-size-7;
+    font-style: italic;
   }
 }

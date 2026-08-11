@@ -4,4 +4,4 @@ main:
   - title: "Papers & Discussions"
     url: /papers/
   - title: "CV"
-    url: "https://nbviewer.org/github/soenarjo/website/blob/main/CV_Soenarjo.pdf"
+    url: /assets/pdf/CV_Soenarjo.pdf

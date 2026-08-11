@@ -7,12 +7,28 @@ permalink: /papers/
 
 ## Working Papers
 
+**The Macroeconomics of International Remittance Flows**
+<br>
+[Paper](/assets/pdf/remittances.pdf){: .btn .btn--primary .btn--small}
+[Appendix](/assets/pdf/remittances_appendix.pdf){: .btn .btn--primary .btn--small}
+<br>
+*August 2026.*
+<br>
+with [M. Ludovica Ambrosino](https://sites.google.com/view/marialudovicaambrosino/home)
+
+<details>
+<summary>Abstract</summary>
+<p>This paper studies the role of international remittance flows in macroeconomic stabilization. We leverage novel transaction-level data from a global Money Transfer Operator to study how individuals send remittances in response to macroeconomic shocks. We document four empirical results. (1) Using a staggered difference-in-differences design, we find that remittance inflows increase by 31% in the week following a natural disaster, consistent with remittances acting as private insurance. (2) Across staggered COVID-19 lockdown reopenings, remittances increased 43% on average over the subsequent ten months, consistent with a labor market recovery. (3) Leveraging the 2021 U.S. stimulus checks as an exogenous income shock, we estimate that remittances rose by 20% in the two weeks following disbursement. (4) The exchange-rate elasticity of sender-currency flows is negative, reaching &minus;0.20 at a twenty-week horizon, consistent with the income effect of exchange rate fluctuations dominating the substitution effect.</p>
+<p>We then develop a two-country heterogeneous-agent New Keynesian model featuring endogenous remittance flows. Two sufficient statistics&mdash;the intertemporal marginal propensity to consume (iMPC) and the intertemporal marginal propensity to remit (iMPR)&mdash;govern how income shocks propagate internationally through an international Keynesian cross, amplifying cross-country spillovers and generating co-movement absent in models without family linkages.</p>
+</details>
+
+---
+
 **Liquidity and Labor Reallocation in an Uneven Economy**
 <br>
-[PDF](https://nbviewer.org/github/soenarjo/website/blob/main/reallocation.pdf){: .btn .btn--primary .btn--small}
-[Alternate](https://github.com/soenarjo/website/blob/main/reallocation.pdf){: .btn .btn--primary .btn--small}
+[Paper](/assets/pdf/reallocation.pdf){: .btn .btn--primary .btn--small}
 <br>
-*New version forthcoming.*
+*June 2025.*
 
 <details>
 <summary>Abstract</summary>
@@ -23,8 +39,7 @@ permalink: /papers/
 
 **Global Value Chains and Inflation Dynamics: Does the Source of Inputs Matter?**
 <br>
-[PDF](https://nbviewer.org/github/soenarjo/website/blob/main/gvcs.pdf){: .btn .btn--primary .btn--small}
-[Alternate](https://github.com/soenarjo/website/blob/main/gvcs.pdf){: .btn .btn--primary .btn--small}
+[Paper](/assets/pdf/gvcs.pdf){: .btn .btn--primary .btn--small}
 <br>
 *January 2026. Revise & Resubmit at Journal of International Economics.*
 <br>
@@ -39,23 +54,12 @@ with [Tommaso Aquilante](https://sites.google.com/site/tomaquilante/home), [Ayda
 
 ## Work in Progress
 
-**The Macroeconomics of International Remittance Flows**
-<br>
-with M. Ludovica Ambrosino
-<br>
-*Draft forthcoming.*
-
-<details>
-<summary>Abstract</summary>
-<p>This article documents five facts regarding the micro-level patterns of international remittance flows. We leverage new administrative data from a large global money transfer operator (MTO). First, we find that remittance senders use their local currency as the reference currency as opposed to the recipient's local currency. Second, we find that an individual sender's remittance amount doesn't change frequently. Therefore, remittance flows are sticky in the sender's currency. Third, we find that on average, a given sender has multiple recipients, which tend to be located in one country. Fourth, we find that the recipient's local currency is the most common receiving currency, but the U.S. dollar is a prominent receiving currency in some Emerging Markets. Fifth, we find that during the pandemic, there was an increase in the number of transfers and volume of remittance flows through the MTO and this was driven in equal parts by existing and new senders to the platform.</p>
-</details>
-
 ---
 
 ## Discussions
 
 **Global Value Chains and the Phillips Curve** by Florio, Siena & Zago
 <br>
-[Discussion](https://github.com/soenarjo/website/blob/main/discussion_Florio_Siena_Zago.pdf){: .btn .btn--primary .btn--small}
+[Discussion](/assets/pdf/discussion_Florio_Siena_Zago.pdf){: .btn .btn--primary .btn--small}
 <br>
 *2024 Bank of England / Banque de France / Banca d'Italia Workshop*
