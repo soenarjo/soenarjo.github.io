@@ -7,7 +7,7 @@ title: "Aditya Soenarjo"
 title_separator: "|"
 name: "Aditya Soenarjo"
 description: "Personal academic website of Aditya Soenarjo, Economist at the Federal Reserve Bank of Boston."
-url: "https://soenarjo.github.io"
+url: "https://www.soenarjo.com"
 repository: "soenarjo/soenarjo.github.io"
 
 # Site Author
@@ -28,7 +28,7 @@ author:
       url: "https://github.com/soenarjo"
     - label: "CV"
       icon: "fas fa-fw fa-file-pdf"
-      url: "https://nbviewer.org/github/soenarjo/website/blob/main/CV_Soenarjo.pdf"
+      url: "/assets/pdf/CV_Soenarjo.pdf"
 
 # Social Sharing
 twitter:
