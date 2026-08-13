@@ -11,6 +11,7 @@ permalink: /papers/
 <br>
 [Paper](/assets/pdf/remittances.pdf){: .btn .btn--primary .btn--small}
 [Appendix](/assets/pdf/remittances_appendix.pdf){: .btn .btn--primary .btn--small}
+[Twitter Summary](https://x.com/MariaLudovicaSA/status/2087895036767649870){: .btn .btn--primary .btn--small}
 <br>
 *August 2026.*
 <br>
